@@ -1,0 +1,11 @@
+#skills_list {
+    height: 300px; /*your fixed height*/
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+}
+
+#skills_list li {
+    display: inline-block; /*necessary*/ 
+    
+}
